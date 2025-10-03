@@ -49,13 +49,16 @@ section {
     font-family: var(--fonte3);
     font-size: 3vw;
 }
-section > p{
-    padding-bottom: 1em;
-}
+
 section.normal {
     background-color: rgba(110, 108, 108, 0.671);
     color: bisque;
     padding-left: 15px;
+    
+}
+section.normal p {
+    padding-bottom: 2em;
+    margin-top: auto;
 }
 section.imagem {
     color: bisque;
